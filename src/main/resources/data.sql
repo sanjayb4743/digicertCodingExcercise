@@ -1,0 +1,4 @@
+INSERT INTO books (isbn, name,author) VALUES (12345555,'TEST BOOK1',"TEST AUTHOR 1");
+INSERT INTO books (isbn, name,author) VALUES (12344444,'TEST BOOK2',"TEST AUTHOR 2");
+INSERT INTO books (isbn, name,author) VALUES (12132131,'TEST BOOK3',"TEST AUTHOR 3");
+INSERT INTO books (isbn, name,author) VALUES (12312312,'TEST BOOK4',"TEST AUTHOR 4"');
