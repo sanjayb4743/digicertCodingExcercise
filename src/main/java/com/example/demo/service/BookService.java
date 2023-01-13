@@ -1,8 +1,9 @@
 package com.example.demo.service;
 
+import com.example.model.Book;
+
 import java.util.List;
 
-import com.example.bo.Book;
 
 public interface BookService {
 	
