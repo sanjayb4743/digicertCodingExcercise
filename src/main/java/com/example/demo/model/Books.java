@@ -4,8 +4,7 @@
 package com.example.demo.model;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
+
 import jakarta.persistence.Id;
 import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
@@ -15,11 +14,15 @@ import org.springframework.data.relational.core.mapping.Table;
  *
  */
 @Entity
-@Table(name = "books")
-public class Book {
+@Table("books")
+public class Books {
 
 
-    @Id
+    public Books() {
+		super();
+	}
+
+	@Id
     private long isbn;
 
 
@@ -27,7 +30,7 @@ public class Book {
     private String name;
     @Column
     private String author;
-    public Book(long isbn, String name, String author) {
+    public Books(long isbn, String name, String author) {
         this.isbn = isbn;
         this.name = name;
         this.author = author;
