@@ -1,13 +1,14 @@
 package com.example.demo.service;
 
-import com.example.model.Book;
-
 import java.util.List;
+
+import com.example.demo.model.Book;
 
 
 public interface BookService {
 	
 	List<Book>getBooks();
-	
 
+
+	Book getBookInfo(long isbn);
 }
