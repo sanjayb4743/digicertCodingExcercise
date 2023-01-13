@@ -5,10 +5,10 @@ package com.example.demo.controller;
 
 import java.util.List;
 
+import com.example.model.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.bo.Book;
 import com.example.demo.service.BookService;
 
 /**
